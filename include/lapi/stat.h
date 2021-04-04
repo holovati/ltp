@@ -66,6 +66,7 @@ struct statx_timestamp {
  * will have values installed for compatibility purposes so that stat() and
  * co. can be emulated in userspace.
  */
+
 #if defined(HAVE_STRUCT_STATX)
 #include <sys/stat.h>
 #else
